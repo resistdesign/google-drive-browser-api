@@ -1,0 +1,11 @@
+{
+  "name": "@resistdesign/google-drive-browser-api",
+  "version": "0.0.0",
+  "description": "A Google Drive API implementation for the browser.",
+  "main": "index.jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Resist Design",
+  "license": "MIT"
+}
