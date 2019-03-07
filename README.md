@@ -15,9 +15,9 @@ import {
 const app = async () => {
   const googleSignIn = new GoogleSignIn({
     apiKey: '...',
-      clientId: '...',
-      scopes: ['...'],
-      discoveryDocs: ['...']
+    clientId: '...',
+    scopes: ['...'],
+    discoveryDocs: ['...']
   });
   
   // Load the the Google API code.
@@ -39,14 +39,14 @@ const app = async () => {
   });
   const result = await googleDrive.create(
     {
-        mimeType: 'text/plain',
-        name: 'My Text Files.txt',
-        description: 'The file description.',
-        properties: {
-            myProperty: 'My Property Value'
-        }
+      mimeType: 'text/plain',
+      name: 'My Text Files.txt',
+      description: 'The file description.',
+      properties: {
+        myProperty: 'My Property Value'
+      }
     },
-    folder
+    'root' // Or a folder id.
   );
   
   console.log(result);
