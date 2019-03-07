@@ -2,10 +2,28 @@
   "name": "@resistdesign/google-drive-browser-api",
   "version": "0.0.0",
   "description": "A Google Drive API implementation for the browser.",
-  "main": "index.jsx",
+  "main": "src/index.jsx",
+  "author": "Resist Design",
+  "license": "MIT",
+  "dependencies": {
+    "scriptjs": "^2.5.9"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Resist Design",
-  "license": "MIT"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/resistdesign/google-drive-browser-api.git"
+  },
+  "keywords": [
+    "Google",
+    "Drive",
+    "Browser",
+    "API"
+  ],
+  "bugs": {
+    "url": "https://github.com/resistdesign/google-drive-browser-api/issues"
+  },
+  "homepage": "https://github.com/resistdesign/google-drive-browser-api#readme"
 }
