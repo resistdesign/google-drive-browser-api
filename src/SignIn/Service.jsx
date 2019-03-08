@@ -9,6 +9,7 @@ export default class Service {
   clientInitialized = false;
   scopes = [];
   discoveryDocs = [];
+  redirectURI = undefined;
 
   constructor(config = {}) {
     Object.assign(this, config);
@@ -102,7 +103,8 @@ export default class Service {
         try {
           await GoogleAuth.signIn({
             scope: scopes.join(' '),
-            ux_mode: 'redirect'
+            ux_mode: 'redirect',
+            redirect_uri: this.redirectURI
           });
           res();
         } catch (error) {
