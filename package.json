@@ -1,6 +1,6 @@
 {
   "name": "@resistdesign/google-drive-browser-api",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A Google Drive API implementation for the browser.",
   "main": "src/index.jsx",
   "author": "Resist Design",
