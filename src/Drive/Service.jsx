@@ -1,4 +1,5 @@
 import {CONJUNCTIONS, OPERATORS, parseQuery} from './QueryUtils';
+import GoogleDriveMediaUploader from './Upload/GoogleDriveMediaUploader';
 
 export default class Service {
   static DEFAULT_PAGE_SIZE = 100;
